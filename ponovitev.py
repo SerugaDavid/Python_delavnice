@@ -56,4 +56,40 @@ a = "pet"
 # s spremenljivkami lahko delamo, kot bi delali z navadnimi podatki
 print(stevilka + b)  # 10
 print(a == ksjdfksdnfgnasf)  # False
+print(a)  # pet
+print(stevilka < b * ksjdfksdnfgnasf)  # True
+# spremenljivkam lahko prirejamo vrednosti drugih spremeljivk
+b = b ** stevilka
+print(b)  # 125
+a = a * stevilka
+print(a)  # petpetpetpetpet
+c = "a" * (b + stevilka)
+print(c)  # aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+# IF STAVKI
+# if stavki nam omogočijo, da poganjamo dele naše kode pogojno
+# ti sprejmejo logični pogoj, to je lahko pogoj(a > b) ali trditev(True)
+# če je pogoj pravilen izvedemo določeni del kode
+a = 1
+b = 2
+if a > b:
+    print("a je večji od b")
+if a < b:
+    print("b je večji od a")
+if a == b:
+    print("a in b sta enaka")
+# if stavki nam omogočijo da izvajamo drugačno kodo, če pogoj NI pravilen
+# to naredimo z uporabo else stavka, ki sledi if stavku
+if a > b:
+    print("a je večji od b")
+else:
+    print("a NI večji od b")
+# if stavke lahko tudi združimo z else stavki
+# to naredimo z elif stavkom, ki se izvede tako kot else stavek, ampak samo če je še njegov pogoj pravilen
+if a > b:
+    print("a je večji od b")
+elif a < b:
+    print("b je večji od a")
+else:
+    print("a in b sta enaka")
 
