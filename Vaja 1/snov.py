@@ -1,4 +1,4 @@
-# PRETVARJANJE MED PODATKOVNIMI TIPI IN VNOS UPORABNIKA
+# PODATKOVNI TIPI IN VNOS UPORABNIKA
 # Kako narediti svoje programe bolj uporabne
 
 # PRETVARJANJE PODATKOVNIH TIPOV
@@ -63,4 +63,18 @@ if a:
     print("besedilo ni prazno")
 else:
     print("besedilo je prazno")
+
+# VNOS UPORABNIKA
+# Če želimo izkoristiti ves potencial naših programov, moramo uporabniku dovoliti, da s programom komunicira.
+# Za vnos podatkov uporabimo funkcijo input().
+# Ta funkcija čaka, da uporabnik vpiše željeni podatek v konzolo, ki ga nato lahko naš program uporabi.
+ime = input("Kako ti je ime? ")
+starost = input("Koliko si star/a? ")
+print("Pozdravljen/a " + ime + ", star/a " + starost + " let!")
+# Računanje z vnešenimi podatki
+# Funkcija input vedno vrne podatek v obliki besedila(str), kar pomeni, da ne moremo z njim računati, kot z ostalimi števili
+# Če hočemo podatek uporabiti, kot kaj drugega kot besedilo, ga moramo pretvoriti
+ime = input("Kako ti je ime? ")
+starost = int(input("Koliko si star/a? "))
+print("Pozdravljen/a " + ime + ", rojen/a leta " + str(2022 - starost) + "!")
 
