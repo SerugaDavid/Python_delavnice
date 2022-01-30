@@ -4,7 +4,7 @@
 # PRETVARJANJE PODATKOVNIH TIPOV
 # Vrste podatkovnih tipov:
 # - int     - cela števila
-# - str  - besedilo
+# - str     - besedilo
 # - float   - decimalna števila
 # - bool    - logični tip(True/False)
 celo_stevilo = 5
