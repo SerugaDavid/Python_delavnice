@@ -25,3 +25,11 @@ elif povprecje <= 5:
     print("odlično")
 else:
     print("napačno povprečje")
+
+print("\nNaloga 4")
+a = int(input("Dolžina stranice a: "))
+st_kamenckov = 4 * (a - 1)  # st_kamenckov = a * 2 + 2 * (a - 2)
+if st_kamenckov:
+    print(st_kamenckov)
+else:
+    print(1)

@@ -100,7 +100,7 @@ Primer:
 > 20
 ```
 
-### Domača naloga
+## Domača naloga
 Napišite program, ki bo lahko računal ploščine različnih
 likov, kot so: kvadrat, pravokotnik, krog in trikotnik.
 
@@ -151,4 +151,33 @@ Ploščina pravokotnika (1)
 Ploščina kroga (2)
 Ploščina trikotnika (3): 4
 > Napačna izbira!
+```
+
+## Dodatne naloge
+
+### Naloga 5
+Ana in Berta sta se odločili, da bosta izmenično šteli v
+neskončnost.
+```
+Ana: 1
+Berta: 2
+Ana: 3
+...
+Ana: 59
+Berta: 60
+...
+```
+Če izvemo katero številko je rekla Ana, potem lahko ugotovimo,
+katera od njih je začela s štetjem. Naj tvoj program prebere
+trenutno številko, ki jo je rekla Ana in na podlagi tega
+izračuna, katera je začela s štetjem.
+```
+> Katero številko je rekla Ana: 56
+> Berta je začela s štetjem!
+
+> Katero številko je rekla Ana: 83
+> Ana je začela s štetjem!
+
+> Katero številko je rekla Ana: 1234567
+> Ana je začela s štetjem!
 ```
